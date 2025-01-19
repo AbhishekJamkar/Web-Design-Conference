@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="homepage-background">
+    <div id="homepage" class="homepage-background">
         <header>
             <div class="navbar">
                 <div class="logo"><a href="#"> New Event </a></div>
@@ -21,31 +21,31 @@
                     <i class="fa-solid fa-bars"></i>
                 </label>
                 <ul class="links">
-                    <li><a href="#">INTRO</a></li>
-                    <li><a href="#">OVERVIEW</a></li>
-                    <li><a href="#">SPEAKERS</a></li>
-                    <li><a href="#">PROGRAMS</a></li>
-                    <li><a href="#">REGISTER</a></li>
-                    <li><a href="#">VENUE</a></li>
-                    <li><a href="#">SPONSORS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a class="intro-link-color" href="#homepage">INTRO</a></li>
+                    <li><a href="#overview-section">OVERVIEW</a></li>
+                    <li><a href="#speakers-section">SPEAKERS</a></li>
+                    <li><a href="#program-section">PROGRAMS</a></li>
+                    <li><a href="#register-section">REGISTER</a></li>
+                    <li><a href="#venue-section">VENUE</a></li>
+                    <li><a href="#venue-section">SPONSORS</a></li>
+                    <li><a href="#venue-section">CONTACT</a></li>
                 </ul>
                 <div class="dropdown_manu">
-                    <li><a href="#">INTRO</a></li>
-                    <li><a href="#">OVERVIEW</a></li>
-                    <li><a href="#">SPEAKERS</a></li>
-                    <li><a href="#">PROGRAMS</a></li>
-                    <li><a href="#">REGISTER</a></li>
-                    <li><a href="#">VENUE</a></li>
-                    <li><a href="#">SPONSORS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a class="intro-link-color" href="#homepage">INTRO</a></li>
+                    <li><a href="#overview-section">OVERVIEW</a></li>
+                    <li><a href="#speakers-section">SPEAKERS</a></li>
+                    <li><a href="#program-section">PROGRAMS</a></li>
+                    <li><a href="#register-section">REGISTER</a></li>
+                    <li><a href="#venue-section">VENUE</a></li>
+                    <li><a href="#venue-section">SPONSORS</a></li>
+                    <li><a href="#venue-section">CONTACT</a></li>
                 </div>
             </div>
 
             <!-- Hero Section -->
             <div class="hero">
                 <h1>July 22-26 in San Francisco, CA</h1>
-                <p>Web Design <a>Conference</a></p>
+                <p>Web Design Conference</p>
                 <br>
                 <div class="button-container">
                     <button class="learn-more-button">Learn More</button>
@@ -55,7 +55,7 @@
         </header>
     </div>
 
-    <section class="Overview">
+    <section id="overview-section" class="Overview">
         <div class="container">
             <div class="Overview-content">
                 <h3>New Event is a fully responsive one-page template for events, conferences or workshops.</h3>
@@ -66,7 +66,7 @@
                     ipsum dolor sit amet,
                     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
             </div>
-            <div class="Overview-image"><img src="assets/Overview.png" </div>
+            <div class="Overview-image"><img src="assets/Overview.png" >
     </section>
 
 
@@ -105,20 +105,15 @@
     <section class="Watch">
         <div class="container">
             <div class="Watch-video-content">
-                <h1>Watch Video</h1>
-                <br>
+                <h1>WATCH VIDEO </h1>
                 <h2>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed
                     tincidunt metus sed eleifend suscipit.</h2>
-                <br>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                     laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.
                 </p>
             </div>
             <div class="Watch-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc6sW1XBfOk?si=F5MeLJJaD-SBPr78"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jNrWyMGOkPw?si=IWWw3oPUlWGT8HIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
 
@@ -129,7 +124,7 @@
         </div>
     </section> -->
     <section>
-        <div class="speakers">
+        <div id="speakers-section" class="speakers">
             <div class="cont">
                 <h1 class="heading">CREATIVE SPEAKERS</h1>
                 <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo impperdiet.</p>
@@ -166,7 +161,7 @@
 
 
     <!-- Program section     -->
-    <section>
+    <section id="program-section">
         <div class="programs">
             <div class="contain">
                 <h1 class="heading">OUR PROGRAMS</h1>
@@ -174,7 +169,7 @@
                     finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
                 <div class="program-days">
                     <ul class="day-links">
-                        <li><a href="#">FIRST DAY</a></li>
+                        <li><a class="program-days-btn" href="#">FIRST DAY</a></li>
                         <li><a href="#">SECOND DAY</a></li>
                         <li><a href="#">THIRD DAY</a></li>
                     </ul>
@@ -194,7 +189,7 @@
                             vitae aliquam magna. Sed aliquam fringilla vestibulum.</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr-style">
                 <div class="program-item">
                     <img src="/assets/Je Mary Lee.png" alt="Johnathan Mark" class="program-image">
                     <div class="program-info">
@@ -206,7 +201,7 @@
                             ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr-style">
                 <div class="program-item">
                     <img src="/assets/David Yoon.png" alt="Johnathan Doe" class="program-image">
                     <div class="program-info">
@@ -222,7 +217,7 @@
         </div>
     </section>
 
-    <section class="register">
+    <section id="register-section" class="register">
         <div class="register-container">
             <div class="register-content">
                 <h1>REGISTER HERE</h1>
@@ -237,17 +232,15 @@
                 <input type="text" id="lname" name="lastname" placeholder="Last Name">
                 <input type="text" id="pnumber" name="phonenumber" placeholder="Phone Number">
                 <input type="text" id="eaddress" name="emailaddress" placeholder="Email Addres">
-
                 <br>
-                <br>
-                <input class="register-button" type="button" value="REGISTER">
+                <button class="register-button" type="button" value="register">Register</button>
                 </form>
             </div>
         </div>
     </section>
 
     <!-- collapsible Accordion  -->
-    <section>
+    <section id="question-section">
         <div class="question">
             <h1 class="heading">DO YOU HAVE QUESTIONS?</h1>
             <p class="heading-content">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo impperdiet.</p>
@@ -295,19 +288,14 @@
         </div>
     </section>
 
-    <section class="venue">
+    <section id="venue-section" class="venue">
         <div class="container">
             <div class="venue-content">
                 <h1>VENUE</h1>
                 <br>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, adipisci libero consequuntur qui
-                    at praesentium quo placeat totam accusamus voluptatum similique dolorem quos temporibus commodi
-                    recusandae reprehenderit dolore voluptatem labore?</h2>
+                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</h2>
                 <br>
-                <P>NEW EVENT</P>
-                <P>120 Market Street, Suite 110 </P>
-                <P>San Francisco, CA 10110</P>
-                <P>Tek: 010-020-0120</P>
+                <P>NEW EVENT 120 Market Street, Suite 110 San Francisco, CA 10110 Tek: 010-020-0120</P>
             </div>
     </section>
 
